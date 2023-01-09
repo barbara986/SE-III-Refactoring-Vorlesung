@@ -15,18 +15,31 @@ public class ABCFormel {
 	    double unterDerWurzel = (b * b) - (4 * a * c);
 	    
 	    if (unterDerWurzel > 0) {
-	        double x1, x2;
-	        x1 = (-b - Math.sqrt(unterDerWurzel)) / (2 * a);
-	        x2 = (-b + Math.sqrt(unterDerWurzel)) / (2 * a);
-	        return "x1 = " + x1 + ", x2 = " + x2;
+	        return positiveWurzel(a, b, unterDerWurzel);
 	    }
 	    else if (unterDerWurzel == 0) {
-	        double x;
-	        x = (-b) / (2 * a);
-	        return "x = " + x;
+	        return nullWurzel(a, b);
 	    }
 	    else {
-	        return "Leere Lösungsmenge";
+	        return negativeWurzel();
 	    }
+	}
+	
+
+	private static String negativeWurzel() {
+		return "Leere Lösungsmenge";
+	}
+
+	private static String nullWurzel(double a, double b) {
+		double x;
+		x = (-b) / (2 * a);
+		return "x = " + x;
+	}
+
+	private static String positiveWurzel(double a, double b, double unterDerWurzel) {
+		double x1, x2;
+		x1 = (-b - Math.sqrt(unterDerWurzel)) / (2 * a);
+		x2 = (-b + Math.sqrt(unterDerWurzel)) / (2 * a);
+		return "x1 = " + x1 + ", x2 = " + x2;
 	}
 }
