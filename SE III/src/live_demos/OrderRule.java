@@ -15,4 +15,5 @@ public class OrderRule {
     		order.basePrice *= 1.19;
     	}
     }
+    
 }
