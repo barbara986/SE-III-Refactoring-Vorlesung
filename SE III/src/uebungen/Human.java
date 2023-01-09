@@ -1,5 +1,5 @@
 package uebungen;
-
+// Refactoring technique: Extract Class, Move Method
 public class Human {
     private String name;
     private String age;

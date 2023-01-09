@@ -1,4 +1,5 @@
 package uebungen;
+// Refactoring technique: Extract Method
 
 public class ABCFormel {
 	public static void main(String[] args) {
