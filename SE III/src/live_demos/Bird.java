@@ -1,4 +1,4 @@
-package RefactoringUndCodeSmells;
+package live_demos;
 
 public class Bird {
 
@@ -26,17 +26,14 @@ public class Bird {
 	}
 
 	private double getBaseSpeed(Object voltage2) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	private int getLoadFactor() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	private double getBaseSpeed() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 }
