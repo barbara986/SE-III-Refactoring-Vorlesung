@@ -30,7 +30,7 @@ public class SoMuchIsHappening {
 	// "Replace nested conditionals with guard clauses". Abspicken bei RefactoringGuru ist erlaubt 
 	// (https://refactoring.guru/replace-nested-conditional-with-guard-clauses).
 	
-	//PS: Die KLasse kann auch ausgeführt werden spasseshalber. Nach dem Refactorn sollte dasselbe Ergebnis zu sehen sein.
+	//PS: Die Klasse kann auch ausgeführt werden spasseshalber. Nach dem Refactorn sollte dasselbe Ergebnis zu sehen sein.
 	private static boolean decideYesOrNo(int zahl) {
 		if(zahl < 9) {
 			System.out.println("Wer mag schon Zahlen kleiner als neun?!");
